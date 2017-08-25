@@ -58,6 +58,7 @@
         <div id="alert">Afspraak gemaakt!
             <div style="margin-bottom: 20px" class="confirmMessage"></div>
             U krijgt binnenkort een bevestigingsmail. (Check ook uw ongewenste berichten)
+            <p>Lukt de reservering niet of krijg je geen bevestigingsmail? Mail dan de datum en tijd van de reservering naar <a href="mailto:afspraak@leondrums.nl">afspraak@leondrums.nl</a></p>
             <button onclick="location.reload()" id="backToPickTable2">&laquo; Terug</button>
         </div>
     </div>
@@ -83,6 +84,7 @@
         <div id="alert">Afspraak gemaakt!
             <div style="margin-bottom: 20px" class="confirmMessage"></div>
             U krijgt binnenkort een bevestigingsmail. (Check ook uw ongewenste berichten)
+            <p>Lukt de reservering niet of krijg je geen bevestigingsmail? Mail dan de datum en tijd van de reservering naar <a href="mailto:afspraak@leondrums.nl">afspraak@leondrums.nl</a></p>
             <button onclick="location.reload()" id="backToPickTable2">&laquo; Terug</button>
         </div>
     </div>

@@ -15,7 +15,7 @@
                 <select required name="age" class="formFields">
                     <option selected disabled>Leeftijd</option>
                     <?php
-                        for($i = 5; $i < 100; $i++){
+                        for($i = 7; $i < 100; $i++){
                             echo('<option value="'.$i.'">'.$i.'</option>');
                         }
                     ?>

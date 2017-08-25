@@ -18,7 +18,6 @@ $("#selectDatum").change(function(){
                     var html = '';
                     html += '<option selected disabled value="Selecteer tijd">Selecteer tijd</option>';
                     $.each(data, function (key, value) {
-
                         html += '<option value="' + value.time + '">' + value.time + '</option>';
                     });
                     $('#selectTijd').html(html);
@@ -30,4 +29,3 @@ $("#selectDatum").change(function(){
         $("#selectTijd").hide();
     }
 });
-

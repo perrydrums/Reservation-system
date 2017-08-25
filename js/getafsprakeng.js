@@ -1,4 +1,3 @@
-
 $("#selectDatumG").change(function(){
     if($(this).val() != "Selecteer datum"){
         $("#selectTijdG").show();
@@ -19,7 +18,6 @@ $("#selectDatumG").change(function(){
                     var html = '';
                     html += '<option selected disabled value="Selecteer tijd">Selecteer tijd</option>';
                     $.each(data, function (key, value) {
-
                         html += '<option value="' + value.time + '">' + value.time + '</option>';
                     });
                     $('#selectTijdG').html(html);

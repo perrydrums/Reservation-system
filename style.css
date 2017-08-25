@@ -32,6 +32,10 @@
         border-bottom: 1px solid #A9A9A9;;
     }
 
+    p{
+        font-size: 12px;
+    }
+
 
 /* Main wrapper */
 #wrapper{

@@ -37,7 +37,7 @@ if(!isset($_SESSION['id'])){
     if (isset($_POST['submitp'])) {
 
         for ($selectNumber = 0; $selectNumber < (count($_POST) / 2) - 1; $selectNumber++) { //Loop for as many inputs are sent
-            $time = $_POST['selectp' . $selectNumber];                                     //Its the number of entries in the _POST array
+            $time = $_POST['selectp' . $selectNumber];                                      //Its the number of entries in the _POST array
             $date = date("Y-m-d", $_POST['hiddenp' . $selectNumber]);                       //divided by 2 (because of hidden entries) and -1 (submit button)
 
             //Is time not empty? Insert date and time in database

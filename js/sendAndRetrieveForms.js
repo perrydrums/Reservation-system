@@ -37,13 +37,14 @@ $('form.groupFormAjax').on('submit', function(){
             var tel = values['tel'];
             var age = values['age'];
             var gender = values['gender'];
-            var dateTime = values['dateTime'];
+            var date = values['date'];
+            var time = values['time'];
             $(".confirmMessage").html("Naam: "+firstName+" "+lastName+
                                         "<br>Email: "+email+
                                         "<br>Telefoonnummer: "+tel+
                                         "<br>Leeftijd: "+age+
                                         "<br>Geslacht: "+gender+
-                                        "<br>Tijd: "+dateTime);
+                                        "<br>Tijd: "+date+" om "+time+" uur.");
 
             //Hide form, show confirmation message
             document.getElementById('groupFormDiv').style.display = "none";

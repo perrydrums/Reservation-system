@@ -15,7 +15,7 @@ if(isset($_POST['submitGroupForm'])){
     //Merge date and time variables into mySQL DateTime
     $date = $_POST['date'];
     $time = $_POST['time'];
-    $dateTime = date("Y-m-d H:i:s",strtotime($date.' '.$time));
+    $dateTime = date("Y-m-d H:i:s",strtotime($date.' '.$time.':00'));
 
     $insertGroupLesson = mysqli_query($connect,"INSERT INTO grouplessons VALUES ('','$firstName','$lastName','$email','$tel','$age','$gender','$dateTime')");
 
@@ -40,7 +40,7 @@ if(isset($_POST['submitGroupForm'])){
     //Merge date and time variables into mySQL DateTime
     $date = $_POST['date'];
     $time = $_POST['time'];
-    $dateTime = date("Y-m-d H:i:s",strtotime($date.' '.$time));
+    $dateTime = date("Y-m-d H:i:s",strtotime($date.' '.$time.':00'));
 
     $insertPrivateLesson = mysqli_query($connect,"INSERT INTO privatelessons VALUES ('','$firstName','$lastName','$email','$tel','$age','$gender','$dateTime')");
     //Remove date from availability

@@ -1,7 +1,7 @@
 <?php
 $selectNumber = 0;
 
-for($i = 0; $i < (8*86400); $i+=86400){ //86400s == 1 day, loops through coming days
+for($i = 0; $i < (21*86400); $i+=86400){ //86400s == 1 day, loops through coming days
 
     $timeStamp = time() + $i;
     $theCheckDate = date("Y-m-d",$timeStamp);
